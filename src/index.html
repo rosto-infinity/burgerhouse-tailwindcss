@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>houseBergerTailwindcss</title>
+    <link rel="stylesheet" href="/src/app.css">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    
+ <!-- ---------------
+    ---heroTop---
+   \\ -----------
+    \\-------
+    \\-----
+    ---- -->
+ <section class= "bg-primary w-full">
+      <div style="background-image: url('/src/medias/images/background/bg-food.jpg');" class="w-full pb-20 md:pb:40 bg-repeat">
+         <!-- Start container -->
+        <div class="container">
+
+            <!-- Stard header -->
+            <header class='flex justify-between items-center py-10 px-5'>
+
+                <div class='logo h-20 w-full flex justify-between items-center' >
+                  <img src='/src/medias/svg/Logo-burger-house.svg' alt="Burger House" class='w-60 ' />
+                </div>
+          
+                <div class='w-full h-20 text-secondary grid items-center justify-end'>
+                  <div class='flex items-center justify-center'>
+                    <img src='/src/medias/svg/ico-bag-clickAndCollect.svg' alt="" class="w-5 h-7 mr-1" />
+                    <span class='text-1xl font-bold'>Commandez votre repas en ligne</span>
+                  </div>
+          
+                  <div class='flex justify-end items-center'>
+                    <button class=" mr-3 px-4 py-3 uppercase shadow-xl text-white-prof text-xs md:text-sm font-medium animate rounded tracking-widest hover:bg-primary-hover">
+                      Inscription
+                    </button>
+                    <button class="mr-3 px-4 py-3 uppercase shadow-xl text-white-prof text-xs md:text-sm font-medium animate rounded tracking-widest bg-secondary hover:bg-secondary-hover cursor-pointer">
+                      Connexion
+                    </button>
+                       
+                  </div>
+                </div>
+              </header>
+              <!-- Stard header -->
+              
+              <div class="relative mt-10 md:mt-28 w-full">
+                <img src="medias/images/heroTop/burger-hero-top.png" class="hidden lg:block absolute z-0 lg:-top-64 right-0" style="width: 568px" alt="Un menu hamburger avec frites et coca cola." />
+    
+                <div class="hidden lg:block absolute right-80 top-40 rounded-full bg-red-primary w-40 h-40 p-3">
+    
+                  <div class="w-full h-full rounded-full border-2 border-dashed border-white-prof text-white-prof flex items-center justify-center">
+                    
+                    <div class="text-center">
+                      <span class="block font-extrabold">
+                        <span class="text-5xl">5</span>.49€
+                      </span>
+                      <span class="tracking-widest uppercase text-sm">seulement</span>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="relative z-10 text-secondary uppercase text-left md:text-center lg:text-left">
+                  <h1 class="mb-4 font-semibold">C'est le moment de goûter au bon goût des hamburgers.</h1>
+                  <h2 class="font-secondary shadowTitleSecondary">
+                    <span class="text-7xl md:text-8xl block">Burger</span> 
+                    <span class="text-2xl md:text-6xl block sm:inline-block">House</span> 
+                    <span class="text-4xl ml-0 sm:ml-3">Click<span class="text-red-primary">&</span>collect</span>
+                  </h2>
+                </div>
+              </div>
+              <button class="mt-5  w-full lg:w-1/5 text-white-prof-200 bg-secondary p-3 rounded hover:bg-secondary-hover">
+                Créer mon compte
+              </button>
+
+        </div>
+
+        
+
+
+      </div>  
+    </section> 
+
+<!-- ---------------
+    ---LastProducts---
+   \\ -----------
+    \\-------
+    \\-----
+    ---- -->
+<div class="container">
+    <div class="grid grid-rows-3 lg:grid-rows-2 lg:grid-cols-2 gap-3 lg:gap-9 w-full h-96 md:h-full lg:h-96 lg:px-11 my-20 text-white-prof uppercase">
+
+        <div class="relative bg-primary lg:row-span-2 h-full rounded-md p-5 md:p-10 lg:p-7">
+          <img src="medias/images/products/LastProducts-1.jpg" class="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md" alt="Un délicieux hamburger exposé sur une pièce de boit" />
+          <div class="relative z-10">
+            <span class="block font-bold text-lg">Killer Burger</span>
+            <span class="text-xl lg:text-2xl font-black">Burger le plus populaire</span>
+          </div>
+        </div>
+
+        <div class="relative bg-primary h-full rounded-md p-5 md:p-10 lg:p-7">
+          <img src="medias/images/products/LastProducts-2.jpg"class="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md" alt="Deux délicieux hamburger exposé sur une pièce de boit" />
+          <div class="relative z-10">
+            <span class="block font-bold text-lg">Island Burger</span>
+            <span class="block text-xl lg:text-2xl font-black">plus de plaisir</span>
+            <span class="text-xl lg:text-2xl font-black">plus de goût</span>
+          </div>
+        </div>
+
+        <div class="relative bg-primary h-full rounded-md p-5 md:p-10 lg:p-7">
+          <img src="medias/images/products/LastProducts-3.jpg" class="absolute  top-0 left-0 w-full h-full object-cover z-0 rounded-md" alt="Un délicieux hamburger exposé sur une pièce de boit" />
+          <div class="relative z-10">
+            <span class="block font-bold text-lg">Orlando's Burger</span>
+            <span class="text-xl lg:text-2xl font-black">frais & pimenté</span>
+          </div>
+        </div>
+
+      </div> 
+</div>
+
+<!-- ---------------
+    ---Products---
+   \\ -----------
+    \\-------
+    \\-----
+    ---- -->
+    <div class="container">
+        <!-- HeadingTitles -->
+        <div class="flex items-center justify-center my-5">
+            <h3 class="px-7 py-3 font-secondary  bg-primary text-secondary uppercase font-bold inline-block text-center  items-center justify-center">
+                Toujours des délicieux burgers
+            </h3>
+        </div>
+
+          <!-- Heading -->
+          <h2 class="my-5 font-secondary text-3xl uppercase lg:text-5xl text-center">
+            Choisissez et savourez
+          </h2>
+        <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+          </p>
+    
+          <div class="grid lg:grid-cols-3 gap-x-1 mb-20 mt-10">
+            
+            <div class="w-full md:w-2/3 lg:w-full h-full mx-auto">
+              <div class="relative w-full h-72">
+                <img src="medias/images/products/Product-1.jpg" alt="Un hamburger" class="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md"/>
+              </div>
+              
+              <div class="flex flex-col items-center justify-center px-5 pb-5">
+                <h3  class="my-5 text-secondary uppercase text-2xl font-bold">
+                    Lorem ipsum dolor
+                </h3>
+                <p class="text-center">
+                  Lorem ipsum delor is simply text for designer ans developer.
+                </p>
+                <button  class="font-secondary  mt-5 bg-red-danger hover:bg-red-primary  lg:mb-0 px-4 py-3 uppercase shadow-xl text-white-prof text-xs md:text-sm  animate rounded">
+                  Commandez
+                </button>
+              </div>
+            </div>
+    
+            <div class="w-full md:w-2/3 lg:w-full h-full mx-auto">
+              <div class="relative w-full h-72">
+                <img src="medias/images/products/Product-2.jpg" alt="Un hamburger" class="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md" />
+              </div>
+              
+              <div class="flex flex-col items-center justify-center px-5 pb-5">
+                <h3  class="my-5 text-secondary uppercase text-2xl font-bold">
+                    Lorem ipsum dolor
+                </h3>
+                <p class="text-center">
+                  Lorem ipsum delor is simply text for designer ans developer.
+                </p>
+                <button  class="font-secondary hover:bg-red-primary mt-5 bg-red-danger lg:mb-0 px-4 py-3 uppercase shadow-xl text-white-prof text-xs md:text-sm  animate rounded">
+                  Commandez
+                </button>
+              </div>
+            </div>
+    
+            <div class="w-full md:w-2/3 lg:w-full h-full mx-auto">
+              <div class="relative w-full h-72">
+                <img src="medias/images/products/Product-3.jpg" alt="Un hamburger" class="bg-primary absolute top-0 left-0 w-full h-full object-cover z-0 rounded-md" />
+              </div>
+              
+              <div class="flex flex-col items-center justify-center px-5 pb-5">
+                <h3  class="my-5 text-secondary uppercase text-2xl font-bold">
+                    Lorem ipsum dolor
+                </h3>
+                <p class="text-center">
+                  Lorem ipsum delor is simply text for designer ans developer.
+                </p>
+                <button  class="font-secondary hover:bg-red-primary mt-5 bg-red-danger lg:mb-0 px-4 py-3 uppercase shadow-xl text-white-prof text-xs md:text-sm  animate rounded">
+                  Commandez
+                </button>
+              </div>
+            </div>
+    
+          </div>  
+    </div>
+
+</body>
+</html>
